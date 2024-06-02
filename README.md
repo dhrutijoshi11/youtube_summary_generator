@@ -29,7 +29,6 @@ The YouTube Video Summarizer is a web application built using Streamlit and Pyth
 ## Installation
 
 1. Clone the repository:
-
 git clone https://github.com/your/repository.git
 cd repository
 
