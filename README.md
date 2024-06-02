@@ -2,6 +2,9 @@
 
 The YouTube Video Summarizer is a web application built using Streamlit and Python. It allows users to extract and summarize content from YouTube videos using Google's Generative AI models, with the option to download summaries as PDF documents.
 
+![youtube](youtube.png)
+
+
 ## Features
 
 - **Video Link Input**: Users can input a YouTube video link.
