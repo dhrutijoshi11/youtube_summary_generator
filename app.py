@@ -30,9 +30,6 @@ def add_bg_from_local(image_path):
         """,
         unsafe_allow_html=True
     )
-
-
-# Replace 'path/to/your/local/image.jpg' with the actual path to your local image file
 add_bg_from_local('/Users/dhrutijoshi/PycharmProjects/YouTube-Video-Summarizer/bg_image.jpg')
 
 
@@ -77,8 +74,6 @@ def create_pdf(summary_text):
     buffer.seek(0)
     return buffer.getvalue()
 
-
-# Define the main page
 def main_page():
     st.markdown("""
         <h1 style='text-align: Center;'>YouTube Video Summarizer</h1>
@@ -88,7 +83,6 @@ def main_page():
         </p>
     """, unsafe_allow_html=True)
 
-    # User inputs
     google_api_key = st.text_input("Enter your Google API Key:", type="password")
     youtube_link = st.text_input("Enter YouTube Video Link:")
     summary_length = st.select_slider(
@@ -106,7 +100,6 @@ def main_page():
             st.error("Please provide both Google API key and YouTube video link.")
 
 
-# Define the summary page
 def summary_page():
     st.title("Video Thumbnail and Summary")
     st.markdown("### Video Thumbnail")
