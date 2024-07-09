@@ -30,7 +30,7 @@ def add_bg_from_local(image_path):
         """,
         unsafe_allow_html=True
     )
-add_bg_from_local('/Users/dhrutijoshi/PycharmProjects/YouTube-Video-Summarizer/bg_image.jpg')
+add_bg_from_local('bg_image.jpg')
 
 
 # Function to extract transcript details
